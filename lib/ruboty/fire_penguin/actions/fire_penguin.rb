@@ -9,7 +9,7 @@ module Ruboty
         private
 
         def element
-          if Random.rand(1..100).between?(1..69) then "🔥" else "❄︎" end
+          if Random.rand(1..100).between?(1, 69) then "🔥" else "❄︎" end
         end
 
         def penguin
