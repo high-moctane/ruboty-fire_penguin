@@ -18,9 +18,9 @@ module Ruboty
 
         def generate_fire_penguin
           <<-"EOS"
-#{element}#{element}#{element}
-#{element}#{penguin}#{element}
-#{element}#{element}#{element}
+  #{element}#{element}#{element}
+  #{element}#{penguin}#{element}
+  #{element}#{element}#{element}
           EOS
         end
 
@@ -36,7 +36,7 @@ module Ruboty
           "ﾃｯﾃｯﾃｰ↑ﾃｯﾃｯﾃｰ↓ﾃｯﾃｯﾃｰ↑ﾃｯﾃｯﾃｰ↓\n\n" +
           (result = generate_fire_penguin) +
           "\n" +
-          if result == "🔥🔥🔥\n🔥🐧🔥\n🔥🔥🔥\n"
+          if result == "  🔥🔥🔥\n  🔥🐧🔥\n  🔥🔥🔥\n"
             message_win
           else
             message_lose
