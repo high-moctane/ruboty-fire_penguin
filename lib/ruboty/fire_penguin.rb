@@ -1,6 +1,7 @@
 require "ruboty/fire_penguin/version"
 require "ruboty/handlers/fire_penguin"
 require "ruboty/fire_penguin/actions/fire_penguin"
+require "ruboty/fire_penguin/actions/absolute_fire_penguin"
 
 
 module Ruboty
