@@ -5,15 +5,15 @@ module Ruboty
   module Handlers
     class FirePenguin < Base
       on(
-        /(moyasu|(燃|も)やす)/,
+        /(moyasu|(燃|も)やす)/i,
         name: "fire_penguin",
         description: "1/10 の確率であたりが出る(｀･ω･´)"
       )
 
       on(
-        /(moyasu)/,
+        /(zettaimoyasu|(絶対|ぜったい|ゼッタイ)(燃|も)やす)/i,
         name: "absolute_fire_penguin",
-        description: "絶対燃やす"
+        description: "絶対燃える(｀･ω･´)"
       )
 
       def fire_penguin(message)

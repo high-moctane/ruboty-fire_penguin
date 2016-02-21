@@ -11,7 +11,7 @@ module Ruboty
         def absolute_fire_penguin
           "ﾃｯﾃｯﾃｰ↑ﾃｯﾃｯﾃｰ↓ﾃｯﾃｯﾃｰ↑ﾃｯﾃｯﾃｰ↓\n\n" +
           "  🔥🔥🔥\n  🔥🐧🔥\n  🔥🔥🔥\n" +
-          "\n🐧＜そんなあたり方で満足なのか？\n"
+          "\n🐧＜そんな燃やし方で満足なのか？\n"
         end
       end
     end
